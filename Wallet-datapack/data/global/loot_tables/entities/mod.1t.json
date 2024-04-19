@@ -1,0 +1,57 @@
+{
+  "type": "minecraft:empty",
+  "pools": [
+    {
+      "rolls": {
+        "type": "minecraft:constant",
+        "value": 1
+      },
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gunpowder",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:6002,Tags:[\"5coins\"],display:{Name:'{\"italic\":false,\"extra\":[{\"text\":\"\"},{\"color\":\"#FA6428\",\"text\":\"5 Coins\"}],\"text\":\"\"}'}}"
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gunpowder",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:6001,Tags:[\"1coin\"],display:{Name:'{\"italic\":false,\"extra\":[{\"text\":\"\"},{\"color\":\"#FA6400\",\"text\":\"1 Coin\"}],\"text\":\"\"}'}}"
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:air",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:air",
+          "weight": 6
+        }
+      ]
+    }
+  ]
+}

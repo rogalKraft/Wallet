@@ -1,0 +1,14 @@
+{
+    "criteria": {
+        "unlocked": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "global:coinbag"
+            }
+        }
+    },
+    "parent": "global:root" ,
+    "rewards": {
+        "function": "global:coinbag"
+    }
+}

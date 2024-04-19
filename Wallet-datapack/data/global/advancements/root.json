@@ -1,0 +1,20 @@
+{
+    "display": {
+        
+        "title": "Datapacks loaded",
+        "description": "",
+        "icon": {
+            "item": "minecraft:ghast_tear",
+            "nbt": "{ CustomModelData:6008 }"
+            
+        },
+        "background": "minecraft:textures/block/brown_stained_glass.png",
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

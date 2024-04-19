@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:gunpowder",
+            "nbt": "{CustomModelData:6003,Tags:[\"10coins\"],display:{Name:'{\"italic\":false,\"extra\":[{\"text\":\"\"},{\"color\":\"dark_gray\",\"text\":\"10 Coins\"}],\"text\":\"\"}'}}"
+        },
+        "title": "10 Coins",
+        "description": "Get a coin with a face value of 10"
+    },
+    "parent": "global:ad3",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:gunpowder"
+                        ],
+                        "nbt": "{CustomModelData:6003,Tags:[\"10coins\"],display:{Name:'{\"italic\":false,\"extra\":[{\"text\":\"\"},{\"color\":\"dark_gray\",\"text\":\"10 Coins\"}],\"text\":\"\"}'}}"
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "experience": 10
+    }
+}

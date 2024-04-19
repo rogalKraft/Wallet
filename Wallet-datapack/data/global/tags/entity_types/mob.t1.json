@@ -1,0 +1,23 @@
+{
+  "replace": true,
+  "values": [
+    "minecraft:endermite",
+    "minecraft:cave_spider",
+    "minecraft:phantom",
+    "minecraft:drowned",
+    "minecraft:creeper",
+    "minecraft:zombie",
+    "minecraft:silverfish",
+    "minecraft:slime",
+    "minecraft:magma_cube",
+    "minecraft:enderman",
+    "minecraft:zombie_villager",
+    "minecraft:skeleton",
+    "minecraft:vex",
+    "minecraft:spider",
+    "minecraft:witch",
+    "minecraft:ravager",
+    "minecraft:vindicator",
+    "minecraft:pillager"
+  ]
+}

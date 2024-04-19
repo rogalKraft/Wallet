@@ -1,0 +1,20 @@
+{
+  "parent": "global:wallet",
+  "criteria": {
+    "mob.1t": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "#global:mob.t3"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "global:mob.3t",
+    "loot": [
+      "global:entities/mod.3t"
+    ]
+  },
+  "sends_telemetry_event": false
+}
